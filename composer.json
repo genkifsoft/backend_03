@@ -38,11 +38,15 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+        ],
+        "files": [
+            "helpers/common.php"
         ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Labo\\": "labo"
         }
     },
     "minimum-stability": "dev",
